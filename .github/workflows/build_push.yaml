@@ -3,7 +3,7 @@ name: Build and Push Docker image to DockerHub
 on: push
 jobs:
     push:
-        name: Push Docker image to DockerHub
+        name: Push Docker image to DockerHub repo
         runs-on: ubuntu-latest
         steps:
             - name: Checkout repo
